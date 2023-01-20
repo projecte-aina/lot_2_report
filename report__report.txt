@@ -1,0 +1,148 @@
+Report for file: ../entregas/Lote2-Pilot_annotations_output.json
+
+2023-01-20 16:18:03.181747
+================
+Total label annotations: 3939
+ in 600 documents
+
+
+50 Most common
+
+GPE	981
+person-other	328
+person-artist/author	262
+organization-government	219
+organization-other	202
+person-politician	176
+organization-politicalparty	159
+organization-sportsteam	110
+Other	109
+organization-privatecompany	103
+CW-music	97
+organization-education	96
+building-other	95
+organization-media	88
+location-other	80
+CW-writtenart	76
+event-sportsevent	75
+person-group	68
+person-actor/director	68
+person-athlete	64
+location-mountain	59
+event-other	54
+CW-other	50
+person-scholar/scientist	49
+location-bodiesofwater	45
+CW-broadcastprogram	25
+product-food	23
+CW-film	20
+product-software	15
+event-political	13
+organization-religious	12
+product-other	11
+building-sportsfacility	11
+event-attack/terrorism/militaryconflict	11
+product-E-device	10
+CW-painting	10
+organization-onlinebusiness	9
+building-governmentfacility	8
+location-road/railway/highway/transit	8
+building-hospital	7
+product-consumer_good	6
+product-vehicle	5
+building-airport	5
+event-protest	4
+location-park	4
+event-disaster	3
+building-shops	3
+location-island	2
+building-restaurant	1
+
+****************
+
+
+Labels and mentions:
+
+('GPE', 'Barcelona')	85
+('GPE', 'Catalunya')	44
+('GPE', 'Espanya')	21
+('organization-politicalparty', 'ERC')	19
+('organization-politicalparty', 'PP')	18
+('GPE', 'Madrid')	16
+('GPE', 'Estats Units')	14
+('organization-government', 'Govern')	13
+('GPE', 'París')	13
+('GPE', 'Girona')	12
+('organization-government', 'Parlament de Catalunya')	12
+('GPE', 'Tarragona')	12
+('GPE', 'València')	12
+('organization-education', 'Universitat de Barcelona')	11
+('GPE', 'Europa')	11
+('Other', 'coronavirus')	10
+('GPE', 'Lleida')	10
+('organization-government', 'Generalitat')	10
+('GPE', 'Palma')	10
+('organization-government', 'Estat')	9
+('person-artist/author', 'Rossini')	9
+('organization-government', 'Parlament de les Illes Balears')	9
+('person-politician', 'Bárcenas')	9
+('organization-sportsteam', 'Heat')	9
+('person-artist/author', 'Nonell')	8
+('GPE', 'Valls')	7
+('GPE', 'Roma')	7
+('organization-media', 'TV3')	6
+('GPE', 'França')	6
+('event-political', '1O')	6
+('event-sportsevent', 'Jocs Olímpics')	6
+('person-artist/author', 'Huguet')	6
+('organization-politicalparty', 'PSOE')	6
+('GPE', 'Reus')	6
+('person-other', 'Consuelo')	6
+('organization-sportsteam', 'Hawks')	6
+('GPE', 'Unió Europea')	5
+('person-other', 'Aladar')	5
+('person-other', 'Peter')	5
+('organization-other', 'UGT')	5
+('GPE', 'Mèxic')	5
+('organization-sportsteam', 'Barça')	5
+('GPE', 'Itàlia')	5
+('person-other', 'Crist')	5
+('GPE', "Bula d'Amunt")	5
+('organization-education', 'Universitat Autònoma de Barcelona')	5
+('organization-other', 'CCOO')	5
+('GPE', 'Sabadell')	5
+('organization-government', 'Congrés')	5
+('person-artist/author', 'Dolors Frau')	5
+
+
+Labelling inconsistencies:
+
+Total of different Q codes: 1853
+
+Q codes with more than one annotation: 422
+
+Q46 	{'location-other', 'GPE'}
+Q29 	{'organization-government', 'GPE'}
+Q84263196 	{'Other', 'event-other'}
+Q355 	{'organization-privatecompany', 'organization-onlinebusiness'}
+Q160077 	{'event-attack/terrorism/militaryconflict', 'event-other'}
+Q15 	{'location-other', 'GPE'}
+Q170467 	{'person-other', 'event-other'}
+Q430099 	{'product-other', 'product-consumer_good'}
+Q936472 	{'product-other', 'product-consumer_good'}
+Q188468 	{'event-other', 'event-sportsevent'}
+Q3322422 	{'organization-government', 'organization-other'}
+Q3026336 	{'organization-government', 'Other'}
+Q2713554 	{'building-other', 'organization-other'}
+Q3129773 	{'organization-government', 'building-governmentfacility'}
+Q204920 	{'organization-other', 'GPE'}
+Q2504807 	{'Other', 'event-sportsevent'}
+Q3044 	{'person-artist/author', 'person-other'}
+Q20669461 	{'organization-government', 'organization-politicalparty'}
+Q1333388 	{'organization-other', 'person-artist/author'}
+Q51 	{'location-other', 'GPE'}
+Q1130849 	{'organization-sportsteam', 'building-sportsfacility'}
+Q155223 	{'organization-other', 'event-sportsevent'}
+
+
+Inconsistent Qs vs. types: 22
