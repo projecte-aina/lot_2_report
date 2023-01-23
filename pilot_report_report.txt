@@ -1,6 +1,6 @@
 Report for file: ../entregas/Lote2-Pilot_annotations_output.json
 
-2023-01-20 16:18:03.181747
+2023-01-23 09:52:18.406458
 ================
 Total label annotations: 3939
  in 600 documents
@@ -123,26 +123,26 @@ Q codes with more than one annotation: 422
 
 Q46 	{'location-other', 'GPE'}
 Q29 	{'organization-government', 'GPE'}
-Q84263196 	{'Other', 'event-other'}
-Q355 	{'organization-privatecompany', 'organization-onlinebusiness'}
+Q84263196 	{'event-other', 'Other'}
+Q355 	{'organization-onlinebusiness', 'organization-privatecompany'}
 Q160077 	{'event-attack/terrorism/militaryconflict', 'event-other'}
 Q15 	{'location-other', 'GPE'}
-Q170467 	{'person-other', 'event-other'}
-Q430099 	{'product-other', 'product-consumer_good'}
-Q936472 	{'product-other', 'product-consumer_good'}
-Q188468 	{'event-other', 'event-sportsevent'}
-Q3322422 	{'organization-government', 'organization-other'}
+Q170467 	{'event-other', 'person-other'}
+Q430099 	{'product-consumer_good', 'product-other'}
+Q936472 	{'product-consumer_good', 'product-other'}
+Q188468 	{'event-sportsevent', 'event-other'}
+Q3322422 	{'organization-other', 'organization-government'}
 Q3026336 	{'organization-government', 'Other'}
 Q2713554 	{'building-other', 'organization-other'}
 Q3129773 	{'organization-government', 'building-governmentfacility'}
 Q204920 	{'organization-other', 'GPE'}
-Q2504807 	{'Other', 'event-sportsevent'}
+Q2504807 	{'event-sportsevent', 'Other'}
 Q3044 	{'person-artist/author', 'person-other'}
-Q20669461 	{'organization-government', 'organization-politicalparty'}
+Q20669461 	{'organization-politicalparty', 'organization-government'}
 Q1333388 	{'organization-other', 'person-artist/author'}
 Q51 	{'location-other', 'GPE'}
 Q1130849 	{'organization-sportsteam', 'building-sportsfacility'}
-Q155223 	{'organization-other', 'event-sportsevent'}
+Q155223 	{'event-sportsevent', 'organization-other'}
 
 
 Inconsistent Qs vs. types: 22

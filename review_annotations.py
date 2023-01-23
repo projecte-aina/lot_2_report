@@ -10,7 +10,7 @@ import json, sys
 from collections import Counter
 #import jsonl
 from termcolor import colored, cprint
-
+import random
 from optparse import OptionParser
 
 # file = "../entregas/Lote2-Pilot_annotations_output.json"
@@ -237,8 +237,8 @@ def main(argv=None):
             exit()
     else:
         if options.report:
-            with open(options.report+".json","w") as bt:
-                json.dump(nous,bt,indent=1,ensure_ascii=False)
+            with open("sample_4Prodigy.json","w") as bt:
+                json.dump(random.sample(nous,int(int(len(nous))/10)),bt,indent=1,ensure_ascii=False)
             with open("labels.txt","w") as bt:
                 for l in labels:
                     bt.write(l+"\n")

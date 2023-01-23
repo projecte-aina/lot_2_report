@@ -1,0 +1,32 @@
+{
+    "global_css": ".prodigy-options {
+                      width: 120%;
+                      display: grid;
+                      padding: 20px 20px 10px;
+                      grid-auto-flow: column;
+                   }
+                   @media (min-width: 900px) {
+                      .prodigy-options { grid-template-rows: repeat(24, 1fr); gap: 7px; }
+                   }
+                   @media (min-width: 1500px) {
+                      .prodigy-options { grid-template-rows: repeat(16, 1fr); gap: 7px; }
+                   }
+                   @media (min-width: 1560px) {
+                      .prodigy-options { grid-template-rows: repeat(12, 1fr); gap: 7px; }
+                   }
+                   .prodigy-container {
+                      margin: auto;
+                      max-width: 1250px;
+                   }
+                   .prodigy-option {
+                       font-size: 10px;
+                   }
+                   .c0188 {
+                       font-size: 10px;
+                   }
+                   .prodigy-meta {
+                       font-size: 10px;
+                   }
+                   .prodigy-title label { font-size: 9px }
+                   "
+}

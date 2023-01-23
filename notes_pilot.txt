@@ -1,0 +1,103 @@
+COVID: 
+event-other i Other?
+
+a morts de trnsit i COVIDno cal gastar els di
+event-other
+ecten mesures de la COVID-19, superen l'aforamen
+Other
+aci derivada per la Covid-19? Pots assessorar-te
+Other
+n el TN de la crisi Covid a Catalunya, dels t
+
+
+
+mateix e-link amb mes d'un type:
+
+Q46  	 {'location-other', 'GPE'}
+Q29  	 {'organization-government', 'GPE'}
+Q84263196  	 {'event-other', 'Other'}
+Q355  	 {'organization-onlinebusiness', 'organization-privatecompany'}
+Q160077  	 {'event-attack/terrorism/militaryconflict', 'event-other'}
+Q15  	 {'location-other', 'GPE'}
+Q170467  	 {'person-other', 'event-other'}
+Q430099  	 {'product-consumer_good', 'product-other'}
+Q936472  	 {'product-consumer_good', 'product-other'}
+Q188468  	 {'event-sportsevent', 'event-other'}
+Q3322422  	 {'organization-government', 'organization-other'}
+Q3026336  	 {'organization-government', 'Other'}
+Q2713554  	 {'organization-other', 'building-other'}
+Q3129773  	 {'organization-government', 'building-governmentfacility'}
+Q204920  	 {'organization-other', 'GPE'}
+Q2504807  	 {'event-sportsevent', 'Other'}
+Q3044  	 {'person-other', 'person-artist/author'}
+Q20669461  	 {'organization-government', 'organization-politicalparty'}
+Q1333388  	 {'organization-other', 'person-artist/author'}
+Q51  	 {'location-other', 'GPE'}
+Q1130849  	 {'organization-sportsteam', 'building-sportsfacility'}
+Q155223  	 {'event-sportsevent', 'organization-other'}
+Inconsistent Q codes:  22
+
+Exemple:
+"Q1333388"
+ant relacionada amb la Nova Cançó, la més jove de Els Setze Jutges i el seu membre número dotze.
+person-artist/author
+c Francesc Burrull. Durant un temps el col·lectiu Els Setze Jutges van considerar si incloure Madolell entre els seu
+organization-other
+ació. Mercè Madolell actuà moltes vegades amb els Jutges i altres membres de la "companyia". També ho va f
+organization-other
+
+
+
+"OR" no es un producte, es una materia primera. Plata i argent igual:
+
+searchQ(nous,"Q430099",50)
+
+Les planxes de coure, bronze, or i argent es poden utilitzar en la tècnica de l'el
+product-other
+n fer-ne la ciutat millor defensada del Nou Món.
+
+Or i plata, llana d'alpaca dels Andes, maragdes de C
+product-consumer_good
+https://www.wikidata.org/wiki/Q430099
+
+For Code  Q936472
+Les planxes de coure, bronze, or i argent es poden utilitzar en la tècnica de l'elaboració directa, que es treballa amb un martell, burins i 
+product-other
+'Havana i en llocs estratègics i aconsegueixen fer-ne la ciutat millor defensada del Nou Món.
+
+Or i plata, llana d'alpaca dels Andes, maragdes de Colòmbia, caobes de Cuba i Guatemala
+
+El dia 20 de desembre
+product-consumer_good
+https://www.wikidata.org/wiki/Q936472
+
+
+
+
+
+For Code  Q3322422
+ (116.027 hab.. . La UGT sindicat colonial amenaa amb un conflicte laboral si la ministra traspassa rodalies
+organization-other
+Trobo mil vegades ms important arreglar les rodalies que ampliar l'aeroport. El Prat sempre estar subordinat a Barajas, per molta ampliaci que facin i a
+organization-government
+https://www.wikidata.org/wiki/Q3322422
+
+For Code  Q355
+ això, segons un portaveu de la companyia: “hem demanat un reemborsament d'acord amb aquesta llei.”
+Facebook, en canvi, ha negat haver rebut “cap compensació en relació amb cap resposta a una petició de dades
+organization-privatecompany
+ durant la dècada dels 2010, que es va convertir en un fenomen viral amb més de 200.000 seguidors a Facebook. El personatge conta històries que li han ocorregut a ella o a amics seus, si bé la intenció és que
+organization-onlinebusiness <-- En les guidelines EXPLICITAMENT son online-bussines les tecnològiques
+https://www.wikidata.org/wiki/Q355
+
+
+For Code  Q160077 [EVENT-OTHER]
+entral de l'escena una àguila bicèfala, símbol de l'Imperi Romà d'Orient desaparegut el 1453 amb la caiguda de Constantinoble a mans dels turcs, una al·lusió al triomf del mal sobre el bé.
+event-attack/terrorism/militaryconflict
+L'inici de l'Edat Moderna es pot fixar entre la caiguda de Constantinoble (any 1453) i el Descobriment d'Amèrica (any 1492), i la seva fi en la Revolució Francesa (any 1789)
+event-other
+https://www.wikidata.org/wiki/Q160077
+
+
+
+
