@@ -35,6 +35,14 @@ Report includes basic statistics and  most common types and Q codes, as well as 
 
 An example report is included
 
+Also: it extracts a random sample of 10% of the documents and creates the two documents needed to review them using Prodigy:
+
+
+
+```
+prodigy ner.manual test_pilot blank:ca pilot4prodigy.json -l labels.txt -C
+```
+
 ## Search types, Mentions or Q codes in Annotations:
 
 ```

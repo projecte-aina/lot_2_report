@@ -214,6 +214,7 @@ def main(argv=None):
     all_anns = json.load(open(options.inputfile))
     nous = []
     labels = []
+    labels.sort()
     for filej in all_anns:
         etqs = [x['type'] for x in filej['annos']]
         labels = list(set(etqs).union(set(labels)))
@@ -222,7 +223,7 @@ def main(argv=None):
         totaldocs = len(nous)
     if options.search:
         print("What do you want to search?\n\n")
-        opt = input("(T) Type\n(M) mention\n(Q)Qcode\n(any other) Exit\n")
+        opt = input("(T) Type\n(M) mention\n(Q) Qcode\n(any other) Exit\n")
         if opt.upper() == "M":
             keyword = input("Which Entity? ")
             searchEnt(nous,keyword,100)
@@ -230,7 +231,7 @@ def main(argv=None):
             qcode = input("Which Q code? ")
             searchQ(nous,qcode,100)
         elif opt.upper() == "T":
-            print(labels.sort())
+            print(labels)
             tipus = input("Which type? ")
             searchType(nous,tipus,100)
         else:

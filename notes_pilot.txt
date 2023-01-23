@@ -100,4 +100,58 @@ https://www.wikidata.org/wiki/Q160077
 
 
 
+For Code  Q170467 [person-other]
+ d'Espanya amb la complicitat del duc de Montellano i d'altres aristòcrates castellans decebuts amb Felip V. Entre els militars fidels al duc d'Orleans s'hi trobava el general Antonio de Villarroel.
+person-other
+arles d'Àustria, i el marquès de Ceva Grimaldi, representant del duc de Pòpuli, cap de l'exèrcit de Felip V, que finalitzava les hostilitats de la Guerra de Successió Espanyola a Catalunya.
+event-other
+https://www.wikidata.org/wiki/Q170467
+
+For Code  Q188468 [event-sportsevent]
+C, el concepte d'esclavatge
+Els Jocs Olímpics de l'antiguitat, originàriament anomenats simplement "Jocs Olímpics" (en grec: "Ολυμπιακοί Αγώνες"; "Olympiakoi Agones"), foren una sèrie de competicions atlètiques ce
+event-sportsevent
+El 600 aC, el concepte d'esclavatge
+Els Jocs Olímpics de l'antiguitat, originàriament anomenats simplement "Jocs Olímpics" (en grec: "Ολυμπιακοί Αγώνες"; "Olympiakoi Ago
+event-other
+https://www.wikidata.org/wiki/Q188468
+
+
+Which Q code? Q2713554  [organization-other]
+For Code  Q2713554
+ament de Barcelona. És membre del Centre de Dones de la Verneda, de l'Ateneu Barcelonès i sòcia del Teatre Lliure.
+organization-other
+i adaptacions de diverses obres com: Sis personatges – Homenatge a Tomás Giner, estrenat el 2018 al Teatre Lliure, sota la direcció de Juan Carlos Martel Bayod o la versió escènica d'El fantasma de Canterville pro
+building-other
+https://www.wikidata.org/wiki/Q2713554
+
+
+For Code  Q3044 [COMPTE en dues d'aquestes anotacions es parla d'un LLOC, un building, el palau de Calemany, no de l'emperador]
+Carlemany els foragità de l'antiga Tarraconensis a finals del i principis del IX (conquesta de Barcelona l'an
+person-other
+ani viu les aventures com a bandoler, passem a un altre lloc geogràficament ben llunyà: el palau de Carlemany a Aquisgrà, per tornar a l'últim acte a un palau a Espanya.
+person-artist/author
+ani viu les aventures com a bandoler, passem a un altre lloc geogràficament ben llunyà: el palau de Carlemany a Aquisgrà, per tornar a l'últim acte a un palau a Espanya.
+person-artist/author
+https://www.wikidata.org/wiki/Q3044
+
+
+Which Q code? Q51 [No es GPE, es location-other]
+For Code  Q51
+e s'infiltra dintre de l'Estació 4 de l'Institut Nacional de Ciències dels Estats Units situada a l'Antàrtida. Ja que cada membre del personal de l'estació és incapaç de saber si els seus companys són o no hum
+GPE
+ent del planeta és aigua. Els blocs continentals són quatre (Euràsia i Àfrica, Amèrica, Oceania i l'Antàrtida), mentre que els oceans són tres (el Pacífic, de bon tros el més extens, l'Atlàntic i l'Índic). L'h
+location-other
+
+
+For Code  Q1130849 [TOTS DOS: organization-sportsteam]
+
+8 de febrer del 2012, Anfield Stadium, Anglaterra
+Durant un partit entre el Liverpool i el Tottenham Hotspur, la Premier League, al jardí (Anfield) del Liberpool va saltar al camp un ga
+building-sportsfacility
+rant un partit entre el Liverpool i el Tottenham Hotspur, la Premier League, al jardí (Anfield) del Liberpool va saltar al camp un gat. S'ha fet famós com a Cat Anfield a les xarxes socials i al twitter té més
+organization-sportsteam
+https://www.wikidata.org/wiki/Q1130849
+
+
 
