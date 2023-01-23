@@ -154,4 +154,18 @@ organization-sportsteam
 https://www.wikidata.org/wiki/Q1130849
 
 
+Altres:
+
+- CRACK del 29 NO es EVENT-Political, es Event-Other, es un esdeveniment social, fins i tot de caire económic
+- Euríbor no es product-other, es només OTHER
+- Aqui s'ha anotat com grup els agermanats de Xàtiva (s'hauria d'haver agafat tot el nom, inclós Xátiva), però NO als "moriscos". Quin va ser el criteri?
+
+Cal dir que el 1520 va sofrir un saqueig a mans dels agermanats de Xàtiva; el 1535 s'erigí en rectoria de moriscs i se separà de Xàtiva.
+person-group
+
+
+
+
+
+
 
