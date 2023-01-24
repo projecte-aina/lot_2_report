@@ -31,7 +31,7 @@ Generates a report named pilot_report.txt, in addition to files to review annota
 prodigy ner.manual test_pilot blank:ca pilot4prodigy.json -l labels.txt -C
 
 ```
-Report includes basic statistics and  most common types and Q codes, as well as incosistencies detected when a QCode receives different types
+Report includes basic statistics and  most common types and Q codes, as well as inconsistencies detected when a QCode receives different types
 
 An example report is included
 
