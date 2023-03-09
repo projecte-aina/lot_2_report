@@ -242,6 +242,12 @@ def main(argv=None):
             exit()
     else:
         if options.report:
+            empty = []
+            for z in nous:
+                if z["spans"]  == []:
+                    empty.append(z)
+            with open(options.report+"_empty_.json","w") as empt:
+                json.dump(empty,empt,indent=1,ensure_ascii=False)
             with open("sample_4Prodigy.json","w") as bt:
                 json.dump(random.sample(nous,int(int(len(nous))/10)),bt,indent=1,ensure_ascii=False)
             with open("labels.txt","w") as bt:
@@ -257,7 +263,9 @@ def main(argv=None):
             counTag, totalTags = counting(tag, nous)
             wout.write("\nTotal "+tag+" annotations: "+str(totalTags)+"\n")
             wout.write(" in "+str(len(nous))+" documents\n\n")
-            wout.write("\n50 Most common\n\n")
+            wout.write("\n=============\n")
+            wout.write(str(len(empty))+" documents (NOT Annotated)\n\n")
+            wout.write("\n50 Most common Anotations\n\n")
             for x in counTag.most_common(50):
                 wout.write(x[0]+"\t"+str(x[-1])+"\n")
             wout.write("\n****************\n\n")  
