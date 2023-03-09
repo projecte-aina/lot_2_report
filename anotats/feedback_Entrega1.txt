@@ -1,0 +1,41 @@
+Feedback Entrega 1 Batch 0
+
+For Code  Q81068910
+'imposts o d'ajuts directes a les empreses, els autònoms i les famílies. I ara res. Silenci
+Quan la pandèmia del coronavirus va arribar a Europa, el mes de març, la duresa de les restriccions adoptades pels governs i el tall
+Other
+ lloc, però, d’avançar cap a la seva erradicació, s’ha constatat que els darrers mesos, arran de la pandèmia de la covid-19 i les mesures adoptades per frenar-ne
+Other
+Els preus es desplomen a l'Eurozona a l'agost per la pandèmia i la inflació passa a ser negativa. La caiguda del preu de l'energia arrossega la inflació fins al 
+event-other
+Sagunt realitza les proves del coronavirus al personal que ha prestat servicis essencials durant la pandmiaContingut de la pgina:L'Ajuntament de Sagunt, a travs del departament de Prevenci de Riscos Laborals
+event-other
+El turisme de luxe tamb es ressent de la pandmia.L'Hotel Cap Rocat de Llucmajor reobre dimecres amb amb un % d'ocupaci. Enguany no tenen clients ame
+Other
+Els preus es desplomen a l'Eurozona a l'agost per la pandèmia i la inflació passa a ser negativa. La caiguda del preu de l'energia arrossega la inflació fins al 
+Other
+La EU encara l'actual crisi de les conseqncies de la pandmia Covid-19 en la inversi estratgica en clima i digitalitzaci. L' acord verd europeu anunciat a finals de l'any
+Other
+https://www.wikidata.org/wiki/Q81068910
+Ocurrences:  7
+[('Other', 5), ('event-other', 2)]
+
+
+
+M
+Which Entity? Google
+El govern espanyol no espera cap "reacció negativa" de Trump a la taxa Google que vol aprovar dimarts. Calviño preveu que les companyies no paguin l'impost fins a finals d'any p
+organization-onlinebusiness
+Samsung. Microsoft cobra 5€ per terminal per patents a diferents marques (LG, Samsung),  mentre que Google només es queda uns 1.7 dolars per mòbil. Curiós, si més no. http://venturebeat.com/2012/11/13/in-20
+organization-privatecompany
+El mn ens mira, per encara no hem tocat sostre segons les cerques a Google: "Catalonia independence" vs "Scotland independence"
+organization-onlinebusiness
+rets, gai-rebé com sempre, però amb nous sistemes operatius (tant en el món de Windows com en el de Google-Android), amb canvis en aplicacions molt utilitzades i amb el desenvolupament de nous processadors 
+organization-privatecompany <_ aquest últim es refereix a software, el OS Android, de Google
+
+
+INCORRECTE!
+
+diverses topades amb ell i els seus amics al carrer. Les JERC van inciar llavors investigacions per --> Internet <-- i van trobar articles, fotos i textos que corroboraven el que les JERC ja coneixien. Aquest persona
+INTERNET NO ES product-E-device
+

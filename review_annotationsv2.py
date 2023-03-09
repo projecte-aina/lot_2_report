@@ -62,37 +62,43 @@ def countLabel(label, nous):
 
 #pol = countLabel('event-political',nous)
 
-def searchEnt(nous,keyword,tall=None):
-    ocurr = []
-    for filej in nous:
-        for x in filej['spans']:
-            if x['mention'] == keyword:
-                ocurr.append((x['mention'],x['offsets'],x['label'],filej['text']))
-    
-    keyw = colored(keyword, "red", "on_yellow", attrs=["bold", "dark"])
-    tipus_found = []
-    for o in ocurr:
-        st = o[1][0]
-        en = o[1][-1]
-        tipus = colored(o[2], "blue", "on_white", attrs=["bold", "dark"])
-        tipus_found.append(o[2])
-        if tall:
-            if st-tall < 0:
-                s = o[-1][:st]+keyw+o[-1][en:en+tall]
+def searchEnt(nous,tall=None):
+    keyword = input("Which Entity? ")
+    while keyword != "":
+        ocurr = []
+        for filej in nous:
+            for x in filej['spans']:
+                if x['mention'] == keyword:
+                    ocurr.append((x['mention'],x['offsets'],x['label'],filej['text']))
+        
+        keyw = colored(keyword, "red", "on_yellow", attrs=["bold", "dark"])
+        tipus_found = []
+        for o in ocurr:
+            st = o[1][0]
+            en = o[1][-1]
+            tipus = colored(o[2], "blue", "on_white", attrs=["bold", "dark"])
+            tipus_found.append(o[2])
+            if tall:
+                if st-tall < 0:
+                    s = o[-1][:st]+keyw+o[-1][en:en+tall]
+                else:
+                    s = o[-1][st-tall:st]+keyw+o[-1][en:en+tall]
+                
+                print(s)
+                print(tipus)
             else:
-                s = o[-1][st-tall:st]+keyw+o[-1][en:en+tall]
-            
-            print(s)
-            print(tipus)
-        else:
-            s = o[-1][:st]+keyw+o[-1][en:]
-            print(s)
-            print(tipus)
-    print("Ocurrences: ",len(ocurr))
-    totipus = Counter(tipus_found)
-    print(totipus.most_common(10))
+                s = o[-1][:st]+keyw+o[-1][en:]
+                print(s)
+                print(tipus)
+        print("Ocurrences: ",len(ocurr))
+        totipus = Counter(tipus_found)
+        print(totipus.most_common(10))
+        print("Do you want to search another entity?")
+        keyword = input("Which Entity ")
+    else:
+        print("finished")
                    
-def searchQ(nous,qcode,tall=None):
+def searchQ(nous,tall=None):
     """
     Checking annotation for Qs
     Parameters
@@ -107,69 +113,85 @@ def searchQ(nous,qcode,tall=None):
     None.
 
     """
-    print("For Code ",qcode)
-    ocurr = []
-    for filej in nous:
-        for x in filej['spans']:
-            if x['elink'] != None:
-                if x['elink'] == qcode:
-                    ocurr.append((x['mention'],x['offsets'],x['label'],filej['text']))
+    qcode = input("Which Q code? ")
+    while qcode != "":
+        print("For Code ",qcode)
+        ocurr = []
+        for filej in nous:
+            for x in filej['spans']:
+                if x['elink'] != None:
+                    if x['elink'] == qcode:
+                        ocurr.append((x['mention'],x['offsets'],x['label'],filej['text']))
+            
+        url = colored("https://www.wikidata.org/wiki/"+qcode, "red", "on_yellow", attrs=["bold", "dark"])
         
-    url = colored("https://www.wikidata.org/wiki/"+qcode, "red", "on_yellow", attrs=["bold", "dark"])
-    
-    tipus_found = []
-    for o in ocurr:
-        st = o[1][0]
-        en = o[1][-1]
-        tipus = colored(o[2], "blue", "on_white", attrs=["bold", "dark"])
-        keyw = colored(o[0], "black", "on_yellow", attrs=["bold", "dark"])
-        tipus_found.append(o[2])
-        if tall:
-            if st-tall < 0:
-                s = o[-1][:st]+keyw+o[-1][en:en+tall]
+        tipus_found = []
+        for o in ocurr:
+            st = o[1][0]
+            en = o[1][-1]
+            tipus = colored(o[2], "blue", "on_white", attrs=["bold", "dark"])
+            keyw = colored(o[0], "black", "on_yellow", attrs=["bold", "dark"])
+            tipus_found.append(o[2])
+            if tall:
+                if st-tall < 0:
+                    s = o[-1][:st]+keyw+o[-1][en:en+tall]
+                else:
+                    s = o[-1][st-tall:st]+keyw+o[-1][en:en+tall]
+                
+                print(s)
+                print(tipus)
             else:
-                s = o[-1][st-tall:st]+keyw+o[-1][en:en+tall]
-            
-            print(s)
-            print(tipus)
-        else:
-            s = o[-1][:st]+keyw+o[-1][en:]
-            print(s)
-            print(tipus)
-    print(url)
-    print("Ocurrences: ",len(ocurr))
-    totipus = Counter(tipus_found)
-    print(totipus.most_common(10))
+                s = o[-1][:st]+keyw+o[-1][en:]
+                print(s)
+                print(tipus)
+        print(url)
+        print("Ocurrences: ",len(ocurr))
+        totipus = Counter(tipus_found)
+        print(totipus.most_common(10))
+        print("Do you want to search another qcode?")
+        qcode = input("Which Q code now? ")
+    else:
+        print("finished")
 
-def searchType(nous,tipus,tall=None):
-    ocurr = []
-    for filej in nous:
-        for x in filej['spans']:
-            if x['label'] == tipus:
-                ocurr.append((x['mention'],x['offsets'],x['label'],filej['text']))   
-    tip = colored(tipus, "red", "on_yellow", attrs=["bold", "dark"])
-    tipus_found = []
-    for o in ocurr:
-        st = o[1][0]
-        en = o[1][-1]
-        #tipus = colored(o[2], "blue", "on_white", attrs=["bold", "dark"])
-        mention = colored(o[0], "black", "on_yellow", attrs=["bold", "dark"])
-        tipus_found.append(o[2])
-        if tall:
-            if st-tall < 0:
-                s = o[-1][:st]+mention+o[-1][en:en+tall]
+def searchType(nous,labels,tall=None):
+    print("Possible labels:")
+    print(labels)
+    tipus = input("Which type? ")
+    while tipus != "":
+        ocurr = []
+        for filej in nous:
+            for x in filej['spans']:
+                if x['label'] == tipus:
+                    ocurr.append((x['mention'],x['offsets'],x['label'],filej['text']))   
+        tip = colored(tipus, "red", "on_yellow", attrs=["bold", "dark"])
+        tipus_found = []
+        for o in ocurr:
+            st = o[1][0]
+            en = o[1][-1]
+            #tipus = colored(o[2], "blue", "on_white", attrs=["bold", "dark"])
+            mention = colored(o[0], "black", "on_yellow", attrs=["bold", "dark"])
+            tipus_found.append(o[2])
+            if tall:
+                if st-tall < 0:
+                    s = o[-1][:st]+mention+o[-1][en:en+tall]
+                else:
+                    s = o[-1][st-tall:st]+mention+o[-1][en:en+tall]
+                
+                print(s)
+                print(tip)
             else:
-                s = o[-1][st-tall:st]+mention+o[-1][en:en+tall]
-            
-            print(s)
-            print(tip)
-        else:
-            s = o[-1][:st]+mention+o[-1][en:]
-            print(s)
-            print(tip)
-    print("Ocurrences: ",len(ocurr))
-    totipus = Counter(tipus_found)
-    print(totipus.most_common(10))
+                s = o[-1][:st]+mention+o[-1][en:]
+                print(s)
+                print(tip)
+        print("Ocurrences: ",len(ocurr))
+        totipus = Counter(tipus_found)
+        print(totipus.most_common(10))
+        print("Do you want to search anothe type?")
+        print("Possible labels:")
+        print(labels)
+        tipus = input("Which type? ")
+    else:
+        print("finished")
     
 def consistencia(nous):
     ocurrd = {}
@@ -210,15 +232,12 @@ def main(argv=None):
         print("What do you want to search?\n\n")
         opt = input("(T) Type\n(M) mention\n(Q) Qcode\n(any other) Exit\n")
         if opt.upper() == "M":
-            keyword = input("Which Entity? ")
-            searchEnt(nous,keyword,100)
+            searchEnt(nous,100)
         elif opt.upper() == "Q":
-            qcode = input("Which Q code? ")
-            searchQ(nous,qcode,100)
+            searchQ(nous,100)
         elif opt.upper() == "T":
             print(labels)
-            tipus = input("Which type? ")
-            searchType(nous,tipus,100)
+            searchType(nous,labels,100)
         else:
             exit()
     else:
